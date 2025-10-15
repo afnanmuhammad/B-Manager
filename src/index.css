@@ -1,0 +1,15 @@
+
+@import "tailwindcss";
+
+/* body{
+    background-color: #E6EFF5
+} */
+ 
+ /* Custom icon colors */
+.icon-gray {
+  filter: brightness(0) saturate(100%) invert(75%) sepia(0%) saturate(0%) hue-rotate(176deg) brightness(90%) contrast(90%);
+}
+
+.icon-blue {
+  filter: brightness(0) saturate(100%) invert(32%) sepia(99%) saturate(7496%) hue-rotate(206deg) brightness(99%) contrast(101%);
+}
