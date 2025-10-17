@@ -4,7 +4,7 @@ import Table from '../components/Table'
 const Categories = () => {
     return (
         <div>
-            <Table />
+            <Table title="List of Categories" />
         </div>
     )
 }

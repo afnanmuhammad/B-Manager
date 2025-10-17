@@ -1,8 +1,11 @@
 import React from 'react'
+import Table from '../components/Table'
 
 const SubCategories = () => {
     return (
-        <div>SubCategories</div>
+        <div>
+            <Table title="List of Sub Categories" showSubCategory={false} addButtonText="+ Add New Sub-Category" />
+        </div>
     )
 }
 
