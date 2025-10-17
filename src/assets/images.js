@@ -7,6 +7,7 @@ import sale_icon from './sale_icon.svg'
 import product_icon from './product_icon.svg'
 import subCategroies_icon from './subCategroies_icon.svg'
 import search_icon from "./search_icon.png"
+import business_icon from "./business_icon.png"
 
 
 
@@ -21,5 +22,6 @@ export const icons = {
     sale_icon,
     product_icon,
     subCategroies_icon,
-    search_icon
+    search_icon,
+    business_icon
 }

@@ -15,7 +15,11 @@ const Sidebar = () => {
     const menuItems = [
         { name: "Dashboard", path: "/", icon: icons.dashboard_icon },
         { name: "Categories", path: "/categories", icon: icons.categroies_icon },
-        { name: "Sub Categories", path: "/subCategories", icon: icons.subCategroies_icon },
+        {
+            name: "Sub Categories",
+            path: "/subCategories",
+            icon: icons.subCategroies_icon,
+        },
         { name: "Products", path: "/products", icon: icons.product_icon },
         { name: "Customers", path: "/customers", icon: icons.customers_icon },
         { name: "Daily Invoice", path: "/dailyInvoice", icon: icons.invoice_icon },
@@ -25,7 +29,18 @@ const Sidebar = () => {
 
     return (
         <aside className="flex flex-col bg-white border-r border-[#E6EFF5] w-64 min-h-screen p-4">
-            <h3 className="font-bold text-black mb-4">Menu</h3>
+            <div className="flex gap-4 justify-center items-center mb-4">
+                <img
+                    src={icons.business_icon}
+                    alt="icon"
+                    className="h-10 w-10 filter brightness-0 invert"
+                    style={{
+                        filter:
+                            "invert(33%) sepia(92%) saturate(7483%) hue-rotate(202deg) brightness(97%) contrast(101%)",
+                    }}
+                />
+                <span className="font-bold text-3xl text-[#B1B1B1] ">B-Manager</span>
+            </div>
 
             <nav className="flex flex-col gap-1">
                 {menuItems.map((item) => (

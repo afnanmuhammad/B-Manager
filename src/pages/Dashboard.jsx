@@ -34,7 +34,7 @@ const Dashboard = () => {
                 // image_icon={value.image_icon}
                 />
             ))}
-            <div className=" w-[960px] h-[350px]">
+            <div className=" w-[940px] h-[350px]">
                 <Chart />
             </div>
         </div>
